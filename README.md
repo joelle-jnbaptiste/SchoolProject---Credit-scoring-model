@@ -1,99 +1,43 @@
-<!-- Improved compatibility of back to top link -->
-<a id="readme-top"></a>
-
-<!-- PROJECT SHIELDS -->
-[![Stars][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-
-<h3 align="center">🪄 Credit Scoring Model</h3>
-
 <p align="center">
-  End-to-end data preparation and exploratory analysis for a credit scoring model, focusing on data cleaning, feature engineering, and interpretability in a financial context.
-  <br />
-  <br />
-  <a href="https://www.kaggle.com/code/willkoehrsen/start-here-a-gentle-introduction"><strong>View Data Source »</strong></a>
-  <br />
-  <br />
-  <a href="https://github.com/joelle-jnbaptiste/SchoolProject---Public-health-data-preparation">Repository</a>
+  <img src="https://img.shields.io/github/license/joelle-jnbaptiste/SchoolProject---Credit-scoring-model?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/School%20Project-ML%20%26%20Data-blueviolet?style=for-the-badge" />
 </p>
+
+<h1 align="center">✨ Credit Scoring Model ✨</h1>
+
+<div align="center">
+  <em>
+     *Making financial risk understandable through interpretable data*
+  </em>
+</br>
+
+ <b>End-to-end data preparation and exploratory analysis for a credit scoring use case, with a strong focus on interpretability</b>
+</br>
+</br>
+🗃️ **Dataset**  
+ https://www.kaggle.com/competitions/home-credit-default-risk
+  
 </div>
 
 ---
 
+
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>📜 Table of Contents</summary>
+  <summary>🧭 Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">🔮 About The Project</a>
-      <ul>
-        <li><a href="#data-source">🧪 Data Source</a></li>
-        <li><a href="#built-with">✨ Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">🪄 Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">📘 Prerequisites</a></li>
-        <li><a href="#installation">🧙 Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#analysis-workflow">📖 Analysis Workflow</a></li>
-    <li><a href="#roadmap">🗺️ Roadmap</a></li>
-    <li><a href="#license">📄 License</a></li>
-    <li><a href="#contact">📬 Contact</a></li>
+    <li><a href="#-built-with">Built With</a></li>
+    <li><a href="#-about-the-project">About The Project</a></li>
+    <li><a href="#-dataset">Dataset</a></li>
+    <li><a href="#-analysis-workflow">Analysis Workflow</a></li>
+    <li><a href="#-repository-structure">Repository Structure</a></li>
+    <li><a href="#-getting-started">Getting Started</a></li>
+    <li><a href="#-license">License</a></li>
+    <li><a href="#-contact">Contact</a></li>
   </ol>
 </details>
 
 ---
-
-## 🔮 About The Project
-
-This project is part of a **credit scoring use case** in a financial context.
-
-You are acting as a **Data Scientist** in a consumer credit company whose goal is to:
-- Estimate the probability that a client will **repay a loan**
-- Classify loan applications as **approved or rejected**
-- Provide a **model that is interpretable** for business users (customer relationship teams)
-
-This repository focuses on the **data preparation and exploratory analysis phase**, which includes:
-- Data cleaning and missing value handling
-- Univariate and multivariate analysis
-- Feature engineering
-- Correlation analysis
-- Export of a cleaned dataset ready for modeling
-
-The work is performed entirely in **Jupyter Notebook** with a strong emphasis on **readability and interpretability**.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
----
-
-### 🧪 Data Source
-
-The dataset comes from a public Kaggle competition and is commonly used as a benchmark for credit scoring problems.
-
-- Source:  
-  https://www.kaggle.com/code/willkoehrsen/start-here-a-gentle-introduction
-
-The data contains:
-- Historical loan information
-- Client demographic and financial attributes
-- Behavioral indicators
-- A binary target indicating loan default
-
-This project reuses and adapts the kernel to fit a **professional and pedagogical context**.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
----
-
 ### ✨ Built With
 
 [![Python][Python-shield]][Python-url]
@@ -105,43 +49,51 @@ This project reuses and adapts the kernel to fit a **professional and pedagogica
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
----
+## 🎯 About The Project
 
-## 🪄 Getting Started
+This project explores a **credit scoring use case** in a financial context.
 
-This project is designed to be explored locally using **Jupyter Notebook**.
+You are acting as a **Data Scientist** in a consumer credit company whose objective is to:
 
-### 📘 Prerequisites
+- Estimate the probability that a client will repay a loan
+- Classify loan applications as approved or rejected
+- Provide a model that is **interpretable** for business users and decision-makers
 
-- Python 3.9+
-- pip or conda
-- Jupyter Notebook or JupyterLab
+This repository focuses on the **data preparation and exploratory analysis phase**, which includes:
 
-### 🧙 Installation
+- Data cleaning and missing value handling
+- Univariate and multivariate analysis
+- Feature engineering
+- Correlation analysis
+- Preparation of a clean dataset ready for modeling
 
-1. Clone the repository:
-
-       git clone https://github.com/joelle-jnbaptiste/SchoolProject---Public-health-data-preparation.git
-
-2. Install dependencies:
-
-       pip install -r requirements.txt
-
-3. Launch Jupyter:
-
-       jupyter notebook
-
-4. Open the notebook and follow the analysis step by step.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+The work is performed entirely in **Jupyter Notebooks**, with a strong emphasis on **readability**, **methodology**, and **explainability**.
 
 ---
 
-## 📖 Analysis Workflow
+## 🗃️  Dataset
 
-The notebook follows a structured workflow:
+The dataset comes from a public Kaggle competition commonly used as a benchmark for credit scoring problems.
 
-1. **Business understanding**
+Source:  
+https://www.kaggle.com/competitions/home-credit-default-risk
+
+The dataset includes:
+
+- Historical loan information
+- Client demographic and financial attributes
+- Behavioral indicators
+- A binary target indicating loan default
+
+The dataset is adapted and reused here for **educational and professional training purposes**.
+
+---
+
+## 🧠 Analysis Workflow
+
+The notebook follows a structured and realistic workflow:
+
+1. **Business Understanding**
    - Credit risk context
    - Target definition
    - Interpretability constraints
@@ -149,7 +101,7 @@ The notebook follows a structured workflow:
 2. **Exploratory Data Analysis (EDA)**
    - Target distribution
    - Feature distributions
-   - Missing values analysis
+   - Missing value analysis
 
 3. **Data Cleaning**
    - Removal of irrelevant features
@@ -163,59 +115,79 @@ The notebook follows a structured workflow:
 
 5. **Correlation & Multivariate Analysis**
    - Correlation matrices
-   - Feature importance intuition
    - Redundancy detection
+   - Feature importance intuition
 
 6. **Dataset Export**
    - Cleaned dataset saved as CSV
    - Ready for modeling and experimentation
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Several notebooks also explore **model explainability techniques** (LIME, feature importance) to illustrate how predictions can be interpreted.
 
 ---
 
-## 🗺️ Roadmap
+## 🗺️ Repository Structure
 
-- [ ] Add baseline machine learning model
-- [ ] Compare multiple classification algorithms
-- [ ] Add global feature importance analysis
-- [ ] Add local explainability for individual predictions
-- [ ] Integrate SHAP or similar interpretability tools
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+    SchoolProject---Credit-scoring-model/
+    ├── notebooks/
+    │   ├── Jean_Baptiste_Joelle_1_notebook_analytique.ipynb
+    │   ├── Jean_Baptiste_Joelle_2_notebook_modelisation.ipynb
+    │   ├── lime_explanation_Dummy_Classifier.ipynb
+    │   ├── lime_explanation_Gradient_Boosting.ipynb
+    │   ├── lime_explanation_Logistic_Regression.ipynb
+    │   ├── lime_explanation_Random_Forest.ipynb
+    │   └── lime_explanation_SVM.ipynb
+    └── README.md
 
 ---
 
-## 📄 License
+## ⚔️ Getting Started
 
-This project is provided for **educational purposes**.  
+This project is designed to be explored locally using **Jupyter Notebook**.
+
+### Prerequisites
+
+- Python 3.9+
+- pip or conda
+- Jupyter Notebook or JupyterLab
+
+### Installation
+
+1. Clone the repository:
+
+       git clone https://github.com/joelle-jnbaptiste/SchoolProject---Credit-scoring-model.git
+
+2. Install dependencies:
+
+       pip install -r requirements.txt
+
+3. Launch Jupyter:
+
+       jupyter notebook
+
+4. Open the notebooks and follow the analysis step by step.
+
+---
+
+## ✒️ License
+
+This project is provided for educational purposes.  
 The dataset follows Kaggle’s terms of use.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
-## 📬 Contact
+## 🕊️ Contact
 
 Joëlle JEAN BAPTISTE  
 LinkedIn: https://fr.linkedin.com/in/joëllejnbaptiste  
 
-Project Link:  
-https://github.com/joelle-jnbaptiste/SchoolProject---Public-health-data-preparation
+Project Link: https://github.com/joelle-jnbaptiste/SchoolProject---Credit-scoring-model
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
-
-<!-- MARKDOWN LINKS & IMAGES -->
-[stars-shield]: https://img.shields.io/github/stars/joelle-jnbaptiste/SchoolProject---Public-health-data-preparation.svg?style=for-the-badge
-[stars-url]: https://github.com/joelle-jnbaptiste/SchoolProject---Public-health-data-preparation/stargazers
-[issues-shield]: https://img.shields.io/github/issues/joelle-jnbaptiste/SchoolProject---Public-health-data-preparation.svg?style=for-the-badge
-[issues-url]: https://github.com/joelle-jnbaptiste/SchoolProject---Public-health-data-preparation/issues
-[license-shield]: https://img.shields.io/badge/License-Educational-purple?style=for-the-badge
-[license-url]: #
-[linkedin-shield]: https://img.shields.io/badge/LinkedIn-4B0082?style=for-the-badge&logo=linkedin&logoColor=white
-[linkedin-url]: https://fr.linkedin.com/in/joëllejnbaptiste
 
 [Python-shield]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
 [Python-url]: https://www.python.org/
